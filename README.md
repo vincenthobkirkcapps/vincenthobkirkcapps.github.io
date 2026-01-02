@@ -47,5 +47,4 @@ Skills & Employment professional at Swindon Borough Council (LLB). Publishing on
 ---
 
 **© 2026 Vincent Hobkirk-Capps. Licensed CC BY-NC-SA 4.0.** 
-Share with attribution. Non-commercial use. Derivatives must use same terms.
-Share with attribution. Non-commercial use. Derivatives must use same terms. Full text: [LICENSE.md](LICENSE.md)
+Share with attribution. Non-commercial use. Derivatives must use same terms. Full text: [LICENSE.md](https://github.com/vincenthobkirkcapps/vincenthobkirkcapps.github.io/blob/main/LICENSE.md)
