@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="assets/css/custom.css">
 # Vincent Hobkirk-Capps: Ethics, Inclusion & Dignity
 
 Skills & Employment professional at Swindon Borough Council (LLB). Publishing on AI governance, gender healthcare ethics, neurodiversity/SEND reform, moral universalism, human complexity, Islamic intellectual history, worship & stewardship through Kantian, Islamic, and lived-experience lenses.
