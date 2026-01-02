@@ -33,8 +33,7 @@ Skills & Employment professional at Swindon Borough Council (LLB). Publishing on
 
 ## Contact & Work
 - [LinkedIn](https://uk.linkedin.com/in/vincenthobkirkcapps)
-- Email: [your professional email]
-- [Swindon Borough Council profile](link if available)
+- Email: VincentHobkirkCapps@proton.me
 
 ***
 
