@@ -39,7 +39,7 @@
 
   h3 {
     font-size: 1.2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   p {
@@ -75,8 +75,49 @@
     color: #5a4636;
   }
 
+  /* ---------- Book Section ---------- */
+
+  .book-container {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    margin-top: 1.5rem;
+  }
+
+  .book-cover {
+    max-width: 240px;
+    height: auto;
+    border: 1px solid #cbb9a6;
+  }
+
+  .book-description {
+    flex: 1;
+  }
+
+  .buy-button {
+    display: inline-block;
+    padding: 0.6rem 1.1rem;
+    border: 1px solid #6a3e1f;
+    color: #6a3e1f;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .buy-button:hover {
+    background: #6a3e1f;
+    color: #f6f1ea;
+  }
+
+  /* ---------- Subtle Section Divider ---------- */
+
+  .section-divider {
+    margin: 4rem 0 2rem 0;
+    border-top: 1px solid #d8cbbd;
+  }
+
   /* ---------- Dark Mode (Charcoal Archive) ---------- */
   @media (prefers-color-scheme: dark) {
+
     body {
       color: #e6dccf;
       background: #1c1713;
@@ -102,25 +143,92 @@
       border-top: 1px solid #4a3b2e;
       color: #b8a48a;
     }
+
+    .book-cover {
+      border: 1px solid #4a3b2e;
+    }
+
+    .buy-button {
+      border: 1px solid #cfa978;
+      color: #cfa978;
+    }
+
+    .buy-button:hover {
+      background: #cfa978;
+      color: #1c1713;
+    }
+
+    .section-divider {
+      border-top: 1px solid #3a2f26;
+    }
   }
   </style>
 </head>
 
 <body>
 
-  <h1>Vincent Hobkirk-Capps (LLB): Ethics, Inclusion &amp; Dignity</h1>
+  <h1>Vincent Hobkirk-Capps (LLB): Ethics, Inclusion & Dignity</h1>
 
   <p>
     Graduate management trainee at Swindon Borough Council.
     Independently publishing on AI governance, gender healthcare ethics, neurodiversity/SEND reform,
-    moral universalism, human complexity, worship &amp;
-    stewardship through Kantian, Islamic, and lived-experience lenses.  
+    moral universalism, human complexity, worship &
+    stewardship through Kantian, Islamic, and lived-experience lenses.
   </p>
 
   <p><strong>
     Advocating cautious, humane institutional practice that protects vulnerability
     without coercion or reductionism.
   </strong></p>
+
+  <!-- ---------- BOOK SECTION ---------- -->
+
+  <h2>Book</h2>
+
+  <section id="book">
+    <div class="book-container">
+
+      <img src="images/spiral-ethics-cover.png"
+           alt="Spiral Ethics Book Cover"
+           class="book-cover" />
+
+      <div class="book-description">
+        <h3>Spiral Ethics</h3>
+
+        <p>
+          A moral framework for acting with care in a chaotic world.
+        </p>
+
+       <p>
+        Many ethical frameworks assume ideal conditions: clarity, stability, and
+        unlimited cognitive or institutional capacity. Real life rarely offers
+        such conditions. <em>Spiral Ethics</em> begins from a different premise.
+        It asks what ethical action looks like when individuals and institutions are
+        fatigued, constrained, and operating under sustained pressure; when
+        recurrence, contradiction, and irreversible consequences cannot be avoided.
+        </p>
+
+      <p>
+      Rather than presenting a catalogue of rules or prescribing outcomes,
+      the book approaches ethics as a process of long-term alignment to coherent
+      principles, with practical guides to help ensure this.
+      </p>
+
+        <p>
+          <a href="https://www.authorhouse.com/en-gb/bookstore/bookdetails/872992-spiral-ethics"
+             target="_blank"
+             class="buy-button">
+            Purchase the Book
+          </a>
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <h2>Essays</h2>
 
   <h2>Publications by Theme</h2>
 
